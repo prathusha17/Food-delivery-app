@@ -1,0 +1,37 @@
+/* *{
+    border: 1px solid black;
+} */
+
+
+
+.img1 {
+    background-image: url("./Images/Rectangle\ 48.png");
+    height: 500px;
+}
+
+.one {
+    position: relative;
+    bottom: 280px;
+}
+
+.img2 {
+    background-image: url("./Images/Rectangle\ 47.png");
+    height: 500px;
+}
+.full{
+    min-width: 572px;
+    max-width: 1500px;
+}
+@media(max-width:576px)
+{
+    .img1{
+        background-image: none !important
+     
+    }
+
+}
+
+
+
+
+
